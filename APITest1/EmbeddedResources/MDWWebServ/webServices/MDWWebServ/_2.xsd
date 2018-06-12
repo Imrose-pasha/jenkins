@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<schema targetNamespace="http://mdw.qwest.com/listener/webservice" xmlns="http://www.w3.org/2001/XMLSchema">
+  <import schemaLocation="soapEncodi_1.xsd" namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+</schema>

@@ -1,0 +1,38 @@
+<ns2:FulfillmentShipmentResponse xmlns:ns2="http://www.qwest.com/XMLSchema" xmlns="http://www.qwest.com/XMLSchema/BIM">
+	<ns2:ShipmentResponseHeader>
+		<RequestId>K01376667</RequestId>
+		<SendTimeStamp>2017-12-6</SendTimeStamp>
+		<ServiceOrderNumber>K01239768</ServiceOrderNumber>
+		<ns2:OrderReceivedDate>2017-05-11-05:00</ns2:OrderReceivedDate>
+		<ns2:RequestType>NEW</ns2:RequestType>
+		<ns2:RequestCategory>OTT</ns2:RequestCategory>
+	</ns2:ShipmentResponseHeader>
+	<ns2:ShipmentResponse>
+		<ShippingDate>2017-05-11T10:02:34.000-05:00</ShippingDate>
+		<ns2:EstimatedDeliveryDate>2017-05-17-05:00</ns2:EstimatedDeliveryDate>
+		<ns2:ShippingInfo>
+			<ns2:ShippingMethod>NDA</ns2:ShippingMethod>
+			<ShippingCarrierName>UPS</ShippingCarrierName>
+			<ns2:ShippingAddress>
+				<GenericName>Pavan</GenericName>
+				<StreetAddress>111 HAL MAIN Street</StreetAddress>
+				<ns2:StreetAddress2>111 HAL MAIN Street</ns2:StreetAddress2>
+				<City>Bangalore</City>
+				<StateProvinceName>KA</StateProvinceName>
+				<PostalCode>560040</PostalCode>
+			</ns2:ShippingAddress>
+		</ns2:ShippingInfo>
+		<ns2:TrackingInfo>
+			<TrackingNumber>16490758995909</TrackingNumber>
+			<TrackingURL>http://wwwapps.ups.com/WebTracking/processInputRequest?TypeOfInquiryNumber=T&amp;amp;InquiryNumber1=1649075909</TrackingURL>
+		</ns2:TrackingInfo>
+	</ns2:ShipmentResponse>
+	<ns2:FulfillmentShipmentResponseItem>
+		<ns2:ItemId>11220750</ns2:ItemId>
+		<ns2:ItemOwnerId>9999999999</ns2:ItemOwnerId>
+		<ns2:SKU>OTTLG014KN</ns2:SKU>
+		<ns2:MACAddress>401B0615FW04</ns2:MACAddress>
+		<ns2:SerialNumber>SVPA4291077115</ns2:SerialNumber>
+		<ns2:ItemStatus>COMPLETED</ns2:ItemStatus>
+	</ns2:FulfillmentShipmentResponseItem>
+</ns2:FulfillmentShipmentResponse>

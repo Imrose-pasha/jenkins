@@ -1,0 +1,71 @@
+SUB: Q.ab51923.ORDEH.ORDFULRET.REQU.ORDEH116
+
+<ns2:FulfillmentReturnRequest xmlns:ns2="http://www.qwest.com/XMLSchema" xmlns="http://www.qwest.com/XMLSchema/BIM">
+    <ns2:ReturnRequestHeader>
+        <RequestId>K01467727</RequestId>
+        <SendTimeStamp>2017-01-08T18:34:00.048-06:00</SendTimeStamp>
+        <ServiceOrderNumber>K01233927</ServiceOrderNumber>
+        <ns2:RequestType>RMA</ns2:RequestType>
+        <ns2:RequestCategory>BROADBAND</ns2:RequestCategory>
+    </ns2:ReturnRequestHeader>
+    <ns2:ShippingInfo>
+        <ns2:ShippingMethod>GND</ns2:ShippingMethod>
+        <ShippingCarrierName>UPS</ShippingCarrierName>
+        <ns2:ShippingAddress>
+            <GenericName>Pavan</GenericName>
+            <StreetAddress>MGM</StreetAddress>
+            <ns2:StreetAddress2/>
+            <City>Atlantis</City>
+            <StateProvinceName>NC</StateProvinceName>
+            <PostalCode>27801</PostalCode>
+        </ns2:ShippingAddress>
+    </ns2:ShippingInfo>
+    <ns2:FulfillmentReturnItem>
+        <ns2:ItemId>11645096</ns2:ItemId>
+        <ns2:ItemOwnerId>5474577641</ns2:ItemOwnerId>
+        <ns2:SKU>MTR3347XLD</ns2:SKU>
+        <ns2:SerialNumber>SVPA4201061641</ns2:SerialNumber>
+    </ns2:FulfillmentReturnItem>
+    <ns2:ReturnAuthorization>
+        <ns2:ReturnAuthorizationNumber>AB34527160004227</ns2:ReturnAuthorizationNumber>
+        <ns2:ReturnAuthorizationExpirationDate>2016-08-01-05:00</ns2:ReturnAuthorizationExpirationDate>
+        <ns2:LabelSKU>MTR3347XLD</ns2:LabelSKU>
+    </ns2:ReturnAuthorization>
+    <ns2:ReturnReason>WR</ns2:ReturnReason>
+    <ns2:CustomerDetails>
+        <ns2:CustomerAccountIdentifier>
+            <Id>0000200014641</Id>
+            <Source>IOM</Source>
+        </ns2:CustomerAccountIdentifier>
+        <ns2:PreviousCustomerAccountId>
+            <Id>0000200014641</Id>
+        </ns2:PreviousCustomerAccountId>
+        <ns2:CustomerType>R</ns2:CustomerType>
+    </ns2:CustomerDetails>
+</ns2:FulfillmentReturnRequest>
+
+*************************************************************************
+
+SUB: Q.ab51923.ORDEH.ORDFULRET.RESP.ORDEH116
+
+<ns2:FulfillmentReturnResponse xmlns:ns2="http://www.qwest.com/XMLSchema" xmlns="http://www.qwest.com/XMLSchema/BIM">
+<ns2:ReturnResponseHeader><RequestId>K014316351</RequestId>
+<SendTimeStamp>2017-07-05T10:46:00.325-05:00</SendTimeStamp>
+        <ServiceOrderNumber>K01487550</ServiceOrderNumber>
+		<ns2:RequestType>RMA</ns2:RequestType>
+		<ns2:RequestCategory>OTT</ns2:RequestCategory>
+		</ns2:ReturnResponseHeader>
+		<ns2:FulfillmentReturnResponseStatus>COMPLETED</ns2:FulfillmentReturnResponseStatus>
+		<ns2:ReturnDate>2017-07-02-05:00</ns2:ReturnDate>
+		<ns2:FulfillmentReturnItem>
+		<ns2:ItemId>11221210</ns2:ItemId>
+		<ns2:ItemOwnerId>9999999999</ns2:ItemOwnerId>
+		<ns2:SKU>ROKU3MEDIAPLR</ns2:SKU>
+        <ns2:SerialNumber></ns2:SerialNumber>
+		</ns2:FulfillmentReturnItem>
+		<ns2:ReturnAuthorization>
+        <ns2:ReturnAuthorizationNumber>LG20126170186833</ns2:ReturnAuthorizationNumber>
+		<ns2:ReturnAuthorizationExpirationDate>2017-07-27-05:00</ns2:ReturnAuthorizationExpirationDate>
+		</ns2:ReturnAuthorization>
+		<ns2:ReturnedItemCondition>GOOD</ns2:ReturnedItemCondition>
+		</ns2:FulfillmentReturnResponse>

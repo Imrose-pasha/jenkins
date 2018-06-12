@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResultsSession time="05/25/17 16:39:40" toolName="SOAtest" toolVer="9.9.0.20150701">
+   <TestConfig machine="SGH305RPX0" name="Example Configuration" pseudoUrl="soatest.user://Example Configuration" user="rxop"/>
+   <Authors/>
+   <VersionInfos>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="IFunctionalTestViolation" ver="3"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.codereview" resultId="ICodeReviewUndefinedAuthorsInfo" ver="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.codereview" resultId="ICodeReviewScannerInfo" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.scope" resultId="IScopeProjectInfo" ver="3"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricEstimationInfo" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2"/>
+   </VersionInfos>
+   <mergePnt id="locationsDetails"/>
+   <mergePnt id="executedTestsDetails"/>
+   <Scope>
+      <ProjectInformations>
+         <ScopeProjectInfo fltFiles="1" fltLns="0" project="/FFWF" totFiles="1" totLns="0"/>
+      </ProjectInformations>
+   </Scope>
+   <FunctionalTests ownerId="com.parasoft.xtest.checkers.api.execution" time="0:00:00">
+      <Goals>
+         <Goal mode="1" name="Functional Test Violations" type="4"/>
+         <Goal mode="1" name="Runtime Error Detection Violations" type="5"/>
+      </Goals>
+      <mergePnt id="historyFunctional"/>
+      <Categories>
+         <Category desc="" id="4" label="Fix Functional Test Violations" label0="Fix Functional Test" label1="Violations" name="Functional Test Violations">
+            <SubCategory id="8" name="Functional Failures" short="functional failure"/>
+            <SubCategory id="10" name="XML Validation Errors" short="XML validation error"/>
+            <SubCategory id="11" name="Miscellaneous Errors" short="miscellaneous error"/>
+         </Category>
+         <Category desc="" id="6" label="Review Change Impact" label0="Review" label1="Change Impact" name="Change Impact">
+            <SubCategory id="16" name="Change Impact" short="change impact"/>
+         </Category>
+      </Categories>
+   </FunctionalTests>
+   <AssocUrls>
+      <Tag disp="Asset" name="asset"/>
+      <Tag disp="Task" name="task"/>
+      <Tag disp="Feature request" name="fr"/>
+      <Tag disp="Requirement" name="req"/>
+      <Tag disp="Problem report" name="pr"/>
+   </AssocUrls>
+</ResultsSession>

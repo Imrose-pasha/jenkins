@@ -1,0 +1,4 @@
+[ERROR] [17:53:11,603] main com.parasoft.xtest.checkers.api.rules.RulesCore: URL is nul in rule provider com.parasoft.xtest.execution.eclipse.core.web.checker
+[ERROR] [11:33:18,139] UStubLic com.parasoft.stub.lic.Logger: [HitLicense] System clock moved forward.
+[ERROR] [11:33:18,142] UStubLic com.parasoft.stub.lic.Logger: [HitLicense] Check last time=Wed May 24 02:06:44 IST 2017
+[ERROR] [11:33:18,142] UStubLic com.parasoft.stub.lic.Logger: [HitLicense] Check current time=Wed May 24 11:33:11 IST 2017

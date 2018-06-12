@@ -1,0 +1,31 @@
+<FulfillmentShipmentRequest xsi:schemaLocation="http://www.qwest.com/XMLSchema ../Development/FulfillmentShipmentRequest_v02_00.xsd" xmlns="http://www.qwest.com/XMLSchema" xmlns:qb="http://www.qwest.com/XMLSchema/BIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ShipmentRequestHeader>
+		<qb:RequestId>K13543902</qb:RequestId>
+		<qb:SendTimeStamp>2018-2-12</qb:SendTimeStamp>
+		<qb:ServiceOrderNumber>K12275312</qb:ServiceOrderNumber>
+		<RequestType>NEW</RequestType>
+	</ShipmentRequestHeader>
+	<ShippingInfo>
+		<ShippingMethod>GND</ShippingMethod>
+		<qb:ShippingCarrierName>UPS</qb:ShippingCarrierName>
+		<ShippingAddress>
+			<qb:GenericName>John Doe</qb:GenericName>
+			<qb:StreetAddress>930 15th Street</qb:StreetAddress>
+			<qb:City>Denver</qb:City>
+			<qb:StateProvinceName>CO</qb:StateProvinceName>
+			<qb:PostalCode>80202</qb:PostalCode>
+		</ShippingAddress>
+	</ShippingInfo>
+	<FulfillmentShipmentRequestItem>
+		<ItemId>K15245732</ItemId>
+		<ItemOwnerId>239221732</ItemOwnerId>
+		<SKU>C1000ALD</SKU>
+	</FulfillmentShipmentRequestItem>
+	<CustomerDetails>
+		<CustomerAccountIdentifier>
+			<qb:Id>00004391944962</qb:Id>
+			<qb:Source>Ensemble</qb:Source>
+		</CustomerAccountIdentifier>
+		<CustomerType>R</CustomerType>
+	</CustomerDetails>
+</FulfillmentShipmentRequest>

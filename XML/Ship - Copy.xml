@@ -1,0 +1,38 @@
+<ns2:FulfillmentShipmentResponse xmlns="http://www.qwest.com/XMLSchema/BIM" xmlns:ns2="http://www.qwest.com/XMLSchema">
+	<ns2:ShipmentResponseHeader>
+		<RequestId>74907</RequestId>
+		<SendTimeStamp></SendTimeStamp>
+		<ServiceOrderNumber>S110IPP064</ServiceOrderNumber>
+		<ns2:OrderReceivedDate>2017-01-13-05:00</ns2:OrderReceivedDate>
+		<ns2:RequestType>NEW</ns2:RequestType>
+		<ns2:RequestCategory>OTT</ns2:RequestCategory>
+	</ns2:ShipmentResponseHeader>
+	<ns2:ShipmentResponse>
+		<ShippingDate>2017-01-13T15:47:23.000-05:00</ShippingDate>
+		<ns2:EstimatedDeliveryDate>2017-01-13-05:00</ns2:EstimatedDeliveryDate>
+		<ns2:ShippingInfo>
+			<ns2:ShippingMethod>GND</ns2:ShippingMethod>
+			<ShippingCarrierName>UPS</ShippingCarrierName>
+			<ns2:ShippingAddress>
+				<GenericName>KOLBY OVERSTREET</GenericName>
+				<StreetAddress>KOLBY OVERSTREET</StreetAddress>
+				<ns2:StreetAddress2>2949 W LEMHI ST</ns2:StreetAddress2>
+				<City>BOISE</City>
+				<StateProvinceName>ID</StateProvinceName>
+				<PostalCode>83705</PostalCode>
+			</ns2:ShippingAddress>
+		</ns2:ShippingInfo>
+		<ns2:TrackingInfo>
+			<TrackingNumber>1Z75X59E0301077790</TrackingNumber>
+			<TrackingURL>http://wwwapps.ups.com/WebTracking/track?track=yes&amp;trackNums=1Z75X59E0301077790</TrackingURL>
+		</ns2:TrackingInfo>
+	</ns2:ShipmentResponse>
+	<ns2:FulfillmentShipmentResponseItem>
+		<ns2:ItemId>1944962</ns2:ItemId>
+		<ns2:ItemOwnerId>9999999999</ns2:ItemOwnerId>
+		<ns2:SKU>OTTLG014KN</ns2:SKU>
+		<ns2:MACAddress>401B0615FV02</ns2:MACAddress>
+		<ns2:SerialNumber>SVPA4201077669</ns2:SerialNumber>
+		<ns2:ItemStatus>COMPLETED</ns2:ItemStatus>
+	</ns2:FulfillmentShipmentResponseItem>
+</ns2:FulfillmentShipmentResponse>

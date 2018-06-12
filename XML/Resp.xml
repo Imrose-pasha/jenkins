@@ -1,0 +1,14 @@
+Q.aa70714.ORDEH.KGPOF.RESP.ORDEH116
+
+	<ns2:FulfillmentResponse xmlns="http://www.qwest.com/XMLSchema/BIM" xmlns:ns2="http://www.qwest.com/XMLSchema">
+		<ns2:ResponseHeader>
+			<RequestId>76128</RequestId>
+			<SendTimeStamp>2018-01-30T06:39:50.293-05:00</SendTimeStamp>
+			<ServiceOrderNumber>N91101941</ServiceOrderNumber>
+			<ns2:OrderReceivedDate>2018-01-30-05:00</ns2:OrderReceivedDate>
+			<ns2:RequestType>NEW</ns2:RequestType>
+			<ns2:RequestCategory>BROADBAND</ns2:RequestCategory>
+		</ns2:ResponseHeader>
+		<ns2:FulfillmentResponseStatus>SUCCESS</ns2:FulfillmentResponseStatus>
+		<ns2:ExpectedShippingDate>2018-01-30-05:00</ns2:ExpectedShippingDate>
+	</ns2:FulfillmentResponse> 

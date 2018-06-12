@@ -1,0 +1,77 @@
+Sub: Q.AB51923.ORDEH.ORDFULSHIP.REQU.ORDEH116
+
+
+<FulfillmentShipmentRequest xsi:schemaLocation="http://www.qwest.com/XMLSchema ../Development/FulfillmentShipmentRequest_v02_00.xsd" xmlns="http://www.qwest.com/XMLSchema" xmlns:qb="http://www.qwest.com/XMLSchema/BIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShipmentRequestHeader>
+    <qb:RequestId>K13543879</qb:RequestId>
+    <qb:SendTimeStamp>2015-10-19T09:30:47-07:00</qb:SendTimeStamp>
+    <qb:ServiceOrderNumber>K12275285</qb:ServiceOrderNumber>
+    <RequestType>NEW</RequestType>
+  </ShipmentRequestHeader>
+  <ShippingInfo>
+    <ShippingMethod>GND</ShippingMethod>
+    <qb:ShippingCarrierName>UPS</qb:ShippingCarrierName>
+    <ShippingAddress>
+      <qb:GenericName>John Doe</qb:GenericName>
+      <qb:StreetAddress>930 15th Street</qb:StreetAddress>
+      <qb:City>Denver</qb:City>
+      <qb:StateProvinceName>CO</qb:StateProvinceName>
+      <qb:PostalCode>80202</qb:PostalCode>
+    </ShippingAddress>
+  </ShippingInfo>
+  <FulfillmentShipmentRequestItem>
+    <ItemId>K15245678</ItemId>
+    <ItemOwnerId>2439221676</ItemOwnerId>
+    <SKU>C1000ALD</SKU>
+  </FulfillmentShipmentRequestItem>
+  <CustomerDetails>
+    <CustomerAccountIdentifier>
+      <qb:Id>0000439178795</qb:Id>
+           <qb:Source>IOM</qb:Source>
+    </CustomerAccountIdentifier>
+    <CustomerType>R</CustomerType>
+  </CustomerDetails>
+</FulfillmentShipmentRequest>
+
+
+
+Sub: Q.ab51923.GATEW15.ORDEH.KGPOFS.RESP.ORDEH116
+
+<ns:FulfillmentShipmentResponse
+      xmlns:ns="http://www.qwest.com/XMLSchema"
+      xmlns:qb="http://www.qwest.com/XMLSchema/BIM">
+  <ns:ShipmentResponseHeader>
+    <qb:RequestId>K13543879</qb:RequestId>
+   <qb:SendTimeStamp>2015-10-19T11:04:52.463-06:00</qb:SendTimeStamp>
+    <qb:ServiceOrderNumber>K12275285</qb:ServiceOrderNumber>
+    <ns:OrderReceivedDate>2015-10-19</ns:OrderReceivedDate>
+    <ns:RequestType>NEW</ns:RequestType>
+    <ns:RequestCategory>PRISM</ns:RequestCategory>
+  </ns:ShipmentResponseHeader>
+  <ns:ShipmentResponse>
+    <qb:ShippingDate>2015-10-19T14:29:41-05:00</qb:ShippingDate>
+    <ns:EstimatedDeliveryDate>2015-10-19</ns:EstimatedDeliveryDate>
+    <ns:ShippingInfo>
+      <ns:ShippingMethod>GND</ns:ShippingMethod>
+      <qb:ShippingCarrierName>UPS</qb:ShippingCarrierName>
+      <ns:ShippingAddress>
+        <qb:GenericName>Test Tester</qb:GenericName>
+        <qb:StreetAddress>7523 e Billings st apt 1101</qb:StreetAddress>
+        <qb:StateProvinceName>AZ</qb:StateProvinceName>
+        <qb:PostalCode>85207</qb:PostalCode>
+        <qb:Country>USA</qb:Country>
+      </ns:ShippingAddress>
+    </ns:ShippingInfo>
+    <ns:TrackingInfo>
+      <qb:TrackingNumber>1Z04W03213727171129</qb:TrackingNumber><qb:TrackingURL>http://wwwapps.ups.com/etracking/tracking.cgi?TypeOfInquiryNumber=T&amp;HTMLVersion=4.0&amp;InquiryNumber1=1Z04W03213727171129</qb:TrackingURL>
+    </ns:TrackingInfo>
+  </ns:ShipmentResponse>
+  <ns:FulfillmentShipmentResponseItem>
+    <ns:ItemId>K15245678</ns:ItemId>
+    <ns:ItemOwnerId>2439221676</ns:ItemOwnerId>
+    <ns:SKU>C1000ALD</ns:SKU>
+    <ns:SerialNumber>SVPA4327321431</ns:SerialNumber>
+    <ns:MACAddress>427B0715FA44</ns:MACAddress>
+    <ns:ItemStatus>COMPLETED</ns:ItemStatus>
+  </ns:FulfillmentShipmentResponseItem>  
+</ns:FulfillmentShipmentResponse>

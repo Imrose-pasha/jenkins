@@ -1,0 +1,22 @@
+1.	-done -----	Login_SOA 	
+2.  -done -----	closeAllBrowser
+3. 	-done -----	Installorder_xml
+4.	-done -----	OPEN								TEST_ENV, pageDesc
+5.	-done -----	MDWDesigner_Login 					inputData,inputData1
+6.	-done -----	Select_Process 						inputData
+7.	-done -----	Load_ProcessInstance
+8.	-done -----	Loading_MasterRequestId 			inputData,inputData1
+9.	Generic_CLICK1 						inputData
+10.	Generic_Verify						inputData,inputData1
+11.	INPUT								pageDesc, objectDesc, inputData
+12.	-done -----	Buslistnerorder_xml					inputdata
+13.	-done -----	Generic_CLICK						inputData
+14.	-done -----	Generic_Input1 						inputData,inputData1
+15.	-done -----	Generic_Input 						inputData,inputData1
+16.	-done -----	XMLValue_Collect 					inputData,inputData1,inputData2,inputData3
+17.	-done -----	ReadXMLFileAndReplaceXMLTags 		QID,FileLocation,Tagtobereplaced,TagValue
+18.	-done -----	FFWF_DB_Connect 
+19.	-done -----	CLOSE_								pageDesc
+20.	-done -----	Copy_xmlvaluetoexcel				row,col,inputdata
+21.	-done -----	ToUpdateDateinXML					FileName
+22.	-done -----	Validatecomplete_MasterRequestId 	inputData

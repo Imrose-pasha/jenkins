@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>896bccdd-3afb-4234-ba90-67b8f83a9031</ID>
+  <Name>MDWWebServ</Name>
+  <Type>WSDL</Type>
+  <Version>1</Version>
+  <CreationDate>2017-06-26T18:10:47.9858521+05:30</CreationDate>
+  <UpdateDate>2017-06-26T18:10:47.9858521+05:30</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>de4533ef-60fc-49e1-a55b-21a7fead717a.xml</MetaDataSignatureFile>
+  <TestResourceId>de4533ef-60fc-49e1-a55b-21a7fead717a</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.WebServiceWsdl</SignatureCodonId>
+  <SignatureAddinVersion>12.52.1370.0</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\automation\APPLICATIONS\FFWF\APITest1\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\automation\APPLICATIONS\FFWF\APITest1\EmbeddedResources\MDWWebServ</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>12.52.1370.0</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>

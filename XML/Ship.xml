@@ -1,0 +1,56 @@
+Q.aa70714.ORDEH.KGPOFS.RESP.ORDEH116
+
+<ns2:FulfillmentShipmentResponse xmlns="http://www.qwest.com/XMLSchema/BIM" xmlns:ns2="http://www.qwest.com/XMLSchema">
+	<ns2:ShipmentResponseHeader>
+		<RequestId>72701</RequestId>
+		<SendTimeStamp>2017-12-27</SendTimeStamp>
+		<ServiceOrderNumber>S110IPP060</ServiceOrderNumber>
+		<ns2:OrderReceivedDate></ns2:OrderReceivedDate>
+		<ns2:RequestType>NEW</ns2:RequestType>
+		<ns2:RequestCategory>OTT</ns2:RequestCategory>
+	</ns2:ShipmentResponseHeader>
+	<ns2:ShipmentResponse>
+		<ShippingDate>2017-12-27T15:47:23.000-05:00</ShippingDate>
+		<ns2:EstimatedDeliveryDate>2017-12-27</ns2:EstimatedDeliveryDate>
+		<ns2:ShippingInfo>
+			<ns2:ShippingMethod>GND</ns2:ShippingMethod>
+			<ShippingCarrierName>UPS</ShippingCarrierName>
+			<ns2:ShippingAddress>
+				<GenericName>Andy Toms</GenericName>
+				<StreetAddress>Andy Toms</StreetAddress>
+				<ns2:StreetAddress2>EAST</ns2:StreetAddress2>
+				<City>NY</City>
+				<StateProvinceName>US</StateProvinceName>
+				<PostalCode>10024</PostalCode>
+			</ns2:ShippingAddress>
+		</ns2:ShippingInfo>
+		<ns2:TrackingInfo>
+			<TrackingNumber>1Z75X59E0301099990</TrackingNumber>
+			<TrackingURL>http://wwwapps.ups.com/WebTracking/track?track=yes&amp;trackNums=1Z75X59E0301099990</TrackingURL>
+		</ns2:TrackingInfo>
+	</ns2:ShipmentResponse>
+	<ns2:FulfillmentShipmentResponseItem>
+		<ns2:ItemId>1946313</ns2:ItemId>
+		<ns2:ItemOwnerId>5474577542</ns2:ItemOwnerId>
+		<ns2:SKU>PK5KXPD</ns2:SKU>
+		<ns2:MACAddress>401B0615FV90</ns2:MACAddress>
+		<ns2:SerialNumber>SVPA4201077690</ns2:SerialNumber>
+		<ns2:ItemStatus>COMPLETED</ns2:ItemStatus>
+	</ns2:FulfillmentShipmentResponseItem>
+</ns2:FulfillmentShipmentResponse>
+
+Message number:2
+Subject:Q.aa70714.ORDEH.KGPOFS.RESP.ORDEH116
+ReplySubject:
+Elapsed time:0.366 Sec.
+_______________________________________________________
+Data for Field Name DATA is:
+<FulfillmentShipmentResponseAcknowledgement xmlns="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <bim:RequestId>75434</bim:RequestId>
+  <bim:SendTimeStamp>2017-12-27T05:30:43.690-06:00</bim:SendTimeStamp>
+  <bim:ServiceOrderNumber>N99100790</bim:ServiceOrderNumber>
+  <RequestType>NEW</RequestType>
+</FulfillmentShipmentResponseAcknowledgement>
+_______________________________________________________
+
+

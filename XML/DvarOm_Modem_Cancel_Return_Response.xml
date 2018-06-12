@@ -1,0 +1,15 @@
+<ns2:FulfillmentReturnResponse xmlns:ns2="http://www.qwest.com/XMLSchema" xmlns="http://www.qwest.com/XMLSchema/BIM">
+	<ns2:ReturnResponseHeader>
+		<RequestId></RequestId>
+		<SendTimeStamp>2017-07-07T18:48:03.242-05:00</SendTimeStamp>
+		<ServiceOrderNumber></ServiceOrderNumber>
+		<ns2:RequestType>RETURN_LABEL</ns2:RequestType>
+	</ns2:ReturnResponseHeader>
+	<ns2:ReturnAuthorization>
+		<ns2:LabelSKU>DSLARSLBL</ns2:LabelSKU>
+	</ns2:ReturnAuthorization>
+	<ErrorList>
+		<ErrorCode>HX032</ErrorCode>
+		<ErrorMessage>ItemId not found in Order</ErrorMessage>
+	</ErrorList>
+</ns2:FulfillmentReturnResponse>

@@ -1,0 +1,47 @@
+<ReturnSTBShipmentRequest xmlns:bim="http://www.qwest.com/XMLSchema/BIM" xmlns="http://www.qwest.com/XMLSchema">
+    <RequestHeader>
+        <RequestId>0133044673700914689957</RequestId>
+        <SendTimeStamp>2016-01-25T15:57:04.689-06:00</SendTimeStamp>
+        <ServiceOrderNumber>S080INT801</ServiceOrderNumber>
+    </RequestHeader>
+    <STBShipmentEventName>DvarOm_Modem_Cancel_Return</STBShipmentEventName>
+    <FulfillmentDueDate>2016-02-23T00:00:00.000-06:00</FulfillmentDueDate>
+    <ShippingInfo>
+        <ShippingAddress>
+            <FirstName>SARA</FirstName>
+            <LastName>COCHRAN</LastName>
+            <StreetAddress1>154 LAKE SHORE DR</StreetAddress1>
+            <StreetAddress2></StreetAddress2>
+            <City>HALEYVILLE</City>
+            <StateProvinceName>AL</StateProvinceName>
+            <PostalCode>35565</PostalCode>
+        </ShippingAddress>
+    </ShippingInfo>
+    <STBReturnKitCount>0</STBReturnKitCount>
+    <TotalNumberOfSTB>1</TotalNumberOfSTB>
+    <CustomerDetails>
+        <CustomerAccountIdentifier>
+            <Id>0000300990374</Id>
+        </CustomerAccountIdentifier>
+    </CustomerDetails>
+</ReturnSTBShipmentRequest>
+
+***********************************************************
+
+SUB: Q.ab51923.ORDEH.ORDFULRET.RESP.ORDEH116
+
+<ns2:FulfillmentReturnResponse xmlns:ns2="http://www.qwest.com/XMLSchema" xmlns="http://www.qwest.com/XMLSchema/BIM">
+    <ns2:ReturnResponseHeader>
+        <RequestId>14317376</RequestId>
+        <SendTimeStamp>2017-07-07T18:48:03.242-05:00</SendTimeStamp>
+        <ServiceOrderNumber>1441128372</ServiceOrderNumber>
+        <ns2:RequestType>RETURN_LABEL</ns2:RequestType>
+    </ns2:ReturnResponseHeader>
+    <ns2:ReturnAuthorization>
+        <ns2:LabelSKU>DSLARSLBL</ns2:LabelSKU>
+    </ns2:ReturnAuthorization>
+    <ErrorList>
+        <ErrorCode>HX032</ErrorCode>
+        <ErrorMessage>ItemId not found in Order</ErrorMessage>
+    </ErrorList>
+</ns2:FulfillmentReturnResponse>

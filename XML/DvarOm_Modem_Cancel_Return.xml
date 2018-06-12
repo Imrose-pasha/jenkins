@@ -1,0 +1,27 @@
+<ReturnSTBShipmentRequest xmlns:bim="http://www.qwest.com/XMLSchema/BIM" xmlns="http://www.qwest.com/XMLSchema">
+    <RequestHeader>
+        <RequestId>0133044673700914689957</RequestId>
+        <SendTimeStamp>2016-01-25T15:57:04.689-06:00</SendTimeStamp>
+        <ServiceOrderNumber>S080INT801</ServiceOrderNumber>
+    </RequestHeader>
+    <STBShipmentEventName>DvarOm_Modem_Cancel_Return</STBShipmentEventName>
+    <FulfillmentDueDate>2016-02-23T00:00:00.000-06:00</FulfillmentDueDate>
+    <ShippingInfo>
+        <ShippingAddress>
+            <FirstName>SARA</FirstName>
+            <LastName>COCHRAN</LastName>
+            <StreetAddress1>154 LAKE SHORE DR</StreetAddress1>
+            <StreetAddress2></StreetAddress2>
+            <City>HALEYVILLE</City>
+            <StateProvinceName>AL</StateProvinceName>
+            <PostalCode>35565</PostalCode>
+        </ShippingAddress>
+    </ShippingInfo>
+    <STBReturnKitCount>0</STBReturnKitCount>
+    <TotalNumberOfSTB>1</TotalNumberOfSTB>
+    <CustomerDetails>
+        <CustomerAccountIdentifier>
+            <Id>0000300990374</Id>
+        </CustomerAccountIdentifier>
+    </CustomerDetails>
+</ReturnSTBShipmentRequest>

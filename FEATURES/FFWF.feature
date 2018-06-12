@@ -1,0 +1,64 @@
+#=========================================================================
+Feature: 
+1.	Placing order
+2.	selecting the processs and validating the db
+3.	successfully setting the FFWF resp and shipment response and valiate the response
+#=========================================================================    
+	##########01. Place a ENJ Order and successfully validate the KGP return and Shipment Response##########
+				@Execute
+				Scenario: FFWF_BCS_01_FULFILLMENT_ENJ_MASTER_PROCESS_ENSEMBLE_NEW_INSTALL_ORDER
+				Given 		FFWF_BCS_01_FULFILLMENT_ENJ_MASTER_PROCESS_ENSEMBLE_NEW_INSTALL_ORDER
+				
+	##########02. Place a DVAR Order and successfully validate the KGP return and Shipment Response##########
+				@ExecuteNot
+				Scenario: FFWF_BCS_02_FULFILLMENT_ENJ_MASTER_PROCESS_DVAR_NEW_INSTALL_ORDER
+				Given 		FFWF_BCS_02_FULFILLMENT_ENJ_MASTER_PROCESS_DVAR_NEW_INSTALL_ORDER
+				
+	##########03. FFWF_BCS_03_FULFILLMENT_ENJ_MASTER_PROCESS_REDESIGN##########
+				@ExecuteNot	
+				Scenario: FFWF_BCS_03_FULFILLMENT_ENJ_MASTER_PROCESS_REDESIGN
+				Given 		FFWF_BCS_03_FULFILLMENT_ENJ_MASTER_PROCESS_REDESIGN
+				
+	##########04. Place a Vendor delivery Process_for replacement of modems##########
+				@ExecuteNot
+				Scenario: FFWF_BCS_04_VENDOR_DELIVERY_PROCESS_FOR_MODEM_REPLACEMENT
+				Given 		FFWF_BCS_04_VENDOR_DELIVERY_PROCESS_FOR_MODEM_REPLACEMENT
+				
+	##########05. FFWF_BCS_05_VENDOR_DELIVERY_PROCESS_IOM_FLOW##########
+				@ExecuteNot	
+				Scenario: FFWF_BCS_05_VENDOR_DELIVERY_PROCESS_IOM_FLOW
+				Given 		FFWF_BCS_05_VENDOR_DELIVERY_PROCESS_IOM_FLOW
+
+	##########06. FFWF_BCS_06_VENDOR_INITIATED_RETURNS_ENSEMBLE_FLOW##########
+				@ExecuteNot	
+				Scenario: FFWF_BCS_06_VENDOR_INITIATED_RETURNS_ENSEMBLE_FLOW
+				Given 		FFWF_BCS_06_VENDOR_INITIATED_RETURNS_ENSEMBLE_FLOW
+
+	##########07. FFWF_BCS_07_VENDOR_INITIATED_RETURNS_IOM_FLOW##########
+				@ExecuteNot	
+				Scenario: FFWF_BCS_07_VENDOR_INITIATED_RETURNS_IOM_FLOW
+				Given 		FFWF_BCS_07_VENDOR_INITIATED_RETURNS_IOM_FLOW
+
+	##########08. FFWF_BCS_08_DVAROM_CANCEL_MODEM_RETURN_DISCONNECTING_SERVICE_ENSEMBLE_FLOW##########
+				@ExecuteNot
+				Scenario: FFWF_BCS_08_DVAROM_CANCEL_MODEM_RETURN_DISCONNECTING_SERVICE_ENSEMBLE_FLOW
+				Given 		FFWF_BCS_08_DVAROM_CANCEL_MODEM_RETURN_DISCONNECTING_SERVICE_ENSEMBLE_FLOW
+
+	##########012. Place a Pure TV Order and successfully validate the KGP return and Shipment Response##########
+				@ExecuteNot
+				Scenario: FFWF_BCS_12_PURETV_FULFILLMENT_PROCESS_NEW_INSTALL_ORDER
+				Given		FFWF_BCS_12_PURETV_FULFILLMENT_PROCESS_NEW_INSTALL_ORDER	
+
+	##########15. FFWF_BCS_15_PURETV_VENDOR_DELIVERY_PROCESS##########
+				@ExecuteNot	
+				Scenario: FFWF_BCS_15_PURETV_VENDOR_DELIVERY_PROCESS
+				Given 		FFWF_BCS_15_PURETV_VENDOR_DELIVERY_PROCESS
+
+	##########016. FFWF_BCS_16_PURETV_VENDOR_INITIATED_RETURN_PROCESS_REPLACEMENT_STB_RETURN_KIT_HAS_BEEN_SENT_TO_THE_CUSTOMER_61_DAYS_AGO_TRANSMISSION_IS_NOT_AlternatePath##########
+				@ExecuteNot	
+				Scenario: FFWF_BCS_16_PURETV_VENDOR_INITIATED_RETURN_PROCESS_REPLACEMENT_STB_RETURN_KIT_HAS_BEEN_SENT_TO_THE_CUSTOMER_61_DAYS_AGO_TRANSMISSION_IS_NOT_SUCCESSFUL
+				Given		FFWF_BCS_16_PURETV_VENDOR_INITIATED_RETURN_PROCESS_REPLACEMENT_STB_RETURN_KIT_HAS_BEEN_SENT_TO_THE_CUSTOMER_61_DAYS_AGO_TRANSMISSION_IS_NOT_SUCCESSFUL	
+
+	##########Test_Data_SetUp_All_DataSheet##########	
+				@Execute
+				Scenario: Test			

@@ -1,0 +1,26 @@
+SUB: Q.ab51923.ORDEH.ORDFULRET.RESP.ORDEH116
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<FulfillmentReturnResponse xmlns="http://www.qwest.com/XMLSchema" xmlns:qb="http://www.qwest.com/XMLSchema/BIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.qwest.com/XMLSchema ../Development/FulfillmentReturnResponse_v01_00.xsd">
+  <ReturnResponseHeader>
+    <qb:RequestId>14293574</qb:RequestId>
+    <qb:SendTimeStamp>2016-01-21T09:30:47-05:00</qb:SendTimeStamp>
+    <qb:ServiceOrderNumber>1329245142</qb:ServiceOrderNumber>
+    <RequestType>RMA</RequestType>
+  </ReturnResponseHeader>
+  <FulfillmentReturnResponseStatus>COMPLETED</FulfillmentReturnResponseStatus>
+  <ReturnDate>2016-01-21</ReturnDate>
+  <FulfillmentReturnItem>
+    <ItemId>11202068</ItemId>
+    <SKU>NAV002001</SKU>
+    <MACAddress>0008744C7F1D</MACAddress>
+    <SerialNumber>12345678</SerialNumber>
+  </FulfillmentReturnItem>
+  <ReturnAuthorization>
+    <ReturnAuthorizationNumber>1235ABCE</ReturnAuthorizationNumber>
+    <ReturnAuthorizationExpirationDate>2016-01-21</ReturnAuthorizationExpirationDate>
+  </ReturnAuthorization>
+  <ReturnedItemCondition>No Damage-Defective</ReturnedItemCondition>
+</FulfillmentReturnResponse>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResultsSession>
+   <SessionData configName="Example Configuration" enabledAnalysis="Execution" enabledHandlers="com.parasoft.xtest.checkers.api.scope.factory;com.parasoft.xtest.execution.api.soa.factory" header="?? ?? ??false??false??" runId="" startTime="1495710580529" tool="soatest">
+      <Authors/>
+      <Selection>
+         <Res id="/FFWF"/>
+      </Selection>
+      <XmlDataFiles/>
+   </SessionData>
+   <Locations/>
+   <ExecutedTestsDetails>
+      <Total authChange="" authFail="" change="0" changePass="0" changeTotal="0" fail="0" name="Passed / Total" pass="1" total="1">
+         <Project authChange="" authFail="" change="0" changePass="0" changeTotal="0" fail="0" name="FFWF" pass="1" total="1">
+            <TestSuite authChange="" authFail="" change="0" changePass="0" changeTotal="0" fail="0" id="wk:///FFWF/FFW.tst" name="FFW.tst" pass="1" total="1">
+               <TestSuite authChange="" authFail="" change="0" changePass="0" changeTotal="0" fail="0" id="wk:///FFWF/FFW.tst#0000000000" name="Test Suite: Test Suite" pass="1" total="1">
+                  <TestSuite authChange="" authFail="" change="0" changePass="0" changeTotal="0" fail="0" id="wk:///FFWF/FFW.tst#0000000000#0000000002" name="Test Suite: Test Suite" pass="1" total="1">
+                     <TestSuite authChange="" authFail="" change="0" changePass="0" changeTotal="0" fail="0" id="wk:///FFWF/FFW.tst#0000000000#0000000002#0000000001" name="Test Suite: MDWWebServicePort" pass="1" total="1">
+                        <Test authChange="" authFail="" change="0" changePass="0" changeTotal="0" fail="0" id="wk:///FFWF/FFW.tst#0000000000#0000000002#0000000001#0000000004" name="Test 1: invokeWebService(string, string)" pass="1" root="true" tool="invokeWebService(string, string)" total="1"/>
+                     </TestSuite>
+                  </TestSuite>
+               </TestSuite>
+            </TestSuite>
+         </Project>
+      </Total>
+   </ExecutedTestsDetails>
+   <FunctionalTests>
+      <HistoryData err="0" fail="0" isErrType="false" pass="1" startTime="1495710580529" subCtgrs="16;8;10;11" tsks="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"/>
+   </FunctionalTests>
+</ResultsSession>

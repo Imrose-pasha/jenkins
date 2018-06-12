@@ -1,0 +1,36 @@
+<ns:FulfillmentShipmentResponse xmlns:ns="http://www.qwest.com/XMLSchema" xmlns:qb="http://www.qwest.com/XMLSchema/BIM">
+	<ns:ShipmentResponseHeader>
+		<qb:RequestId>K13543879</qb:RequestId>
+		<qb:SendTimeStamp>2017-12-6</qb:SendTimeStamp>
+		<qb:ServiceOrderNumber>K12275285</qb:ServiceOrderNumber>
+		<ns:OrderReceivedDate>2015-10-19</ns:OrderReceivedDate>
+		<ns:RequestType>NEW</ns:RequestType>
+		<ns:RequestCategory>PRISM</ns:RequestCategory>
+	</ns:ShipmentResponseHeader>
+	<ns:ShipmentResponse>
+		<qb:ShippingDate>2015-10-19T14:29:41-05:00</qb:ShippingDate>
+		<ns:EstimatedDeliveryDate>2015-10-19</ns:EstimatedDeliveryDate>
+		<ns:ShippingInfo>
+			<ns:ShippingMethod>GND</ns:ShippingMethod>
+			<qb:ShippingCarrierName>UPS</qb:ShippingCarrierName>
+			<ns:ShippingAddress>
+				<qb:GenericName>Test Tester</qb:GenericName>
+				<qb:StreetAddress>7523 e Billings st apt 1101</qb:StreetAddress>
+				<qb:StateProvinceName>AZ</qb:StateProvinceName>
+				<qb:PostalCode>85207</qb:PostalCode>
+				<qb:Country>USA</qb:Country>
+			</ns:ShippingAddress>
+		</ns:ShippingInfo>
+		<ns:TrackingInfo>
+			<qb:TrackingNumber>1Z04W03213727171129</qb:TrackingNumber><qb:TrackingURL>http://wwwapps.ups.com/etracking/tracking.cgi?TypeOfInquiryNumber=T&amp;HTMLVersion=4.0&amp;InquiryNumber1=1Z04W03213727171129</qb:TrackingURL>
+		</ns:TrackingInfo>
+	</ns:ShipmentResponse>
+	<ns:FulfillmentShipmentResponseItem>
+		<ns:ItemId>K15245678</ns:ItemId>
+		<ns:ItemOwnerId>2439221676</ns:ItemOwnerId>
+		<ns:SKU>C1000ALD</ns:SKU>
+		<ns:SerialNumber>SVPA4327321431</ns:SerialNumber>
+		<ns:MACAddress>427B0715FA44</ns:MACAddress>
+		<ns:ItemStatus>COMPLETED</ns:ItemStatus>
+	</ns:FulfillmentShipmentResponseItem>
+</ns:FulfillmentShipmentResponse>

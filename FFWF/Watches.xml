@@ -1,0 +1,9 @@
+﻿<Properties>
+  <WatchEntry0 value="row_cnt" />
+  <WatchEntry1 value="display" />
+  <WatchEntry2 value="display" />
+  <WatchEntry3 value="JavaWindow(&quot;title:=MDW Designer.*&quot;).JavaTable(&quot;columns_names:=Process Instance Id;Master Request Id.*&quot;,&quot;toolkit class:=javax.swing.JTable&quot;).Exist(5)" />
+  <WatchEntry4 value="err.number" />
+  <WatchEntry5 value="strText" />
+  <WatchEntry6 value="strText" />
+</Properties>

@@ -1,0 +1,40 @@
+<ns2:FulfillmentReturnRequest xmlns:ns2="http://www.qwest.com/XMLSchema" xmlns="http://www.qwest.com/XMLSchema/BIM">
+	<ns2:ReturnRequestHeader>
+		<RequestId></RequestId>
+		<SendTimeStamp>2017-10-26T09:24:01.683-06:00</SendTimeStamp>
+		<ServiceOrderNumber></ServiceOrderNumber>
+		<ns2:RequestType>RMA</ns2:RequestType>
+		<ns2:RequestCategory>OTT</ns2:RequestCategory>
+	</ns2:ReturnRequestHeader>
+	<ns2:ShippingInfo>
+		<ns2:ShippingAddress>
+			<GenericName>Pavan test</GenericName>
+			<StreetAddress>12515 MG Road, 454</StreetAddress>
+			<ns2:StreetAddress2/>
+			<City>Bangalore</City>
+			<StateProvinceName>KA</StateProvinceName>
+			<PostalCode>560060</PostalCode>
+		</ns2:ShippingAddress>
+	</ns2:ShippingInfo>
+	<ns2:FulfillmentReturnItem>
+		<ns2:ItemId></ns2:ItemId>
+		<ns2:ItemOwnerId></ns2:ItemOwnerId>
+		<ns2:SKU>OTTLG014KN</ns2:SKU>
+	</ns2:FulfillmentReturnItem>
+	<ns2:ReturnAuthorization>
+		<ns2:ReturnAuthorizationNumber>LG20126170186326</ns2:ReturnAuthorizationNumber>
+		<ns2:ReturnAuthorizationExpirationDate>2017-11-16-05:00</ns2:ReturnAuthorizationExpirationDate>
+		<ns2:LabelSKU>ROKU3MEDIAPLR</ns2:LabelSKU>
+	</ns2:ReturnAuthorization>
+	<ns2:ReturnReason>WR</ns2:ReturnReason>
+	<ns2:CustomerDetails>
+		<ns2:CustomerAccountIdentifier>
+			<Id></Id>
+			<Source>AVS</Source>
+		</ns2:CustomerAccountIdentifier>
+		<ns2:PreviousCustomerAccountId>
+			<Id>1000000054</Id>
+		</ns2:PreviousCustomerAccountId>
+		<ns2:CustomerType>R</ns2:CustomerType>
+	</ns2:CustomerDetails>
+</ns2:FulfillmentReturnRequest>

@@ -1,0 +1,34 @@
+Q.aa70714.ORDEH.KGPOF.RESP.ORDEH116
+
+Q.AB38729.ORDEH.KGPOF.ROUT.ORDEH116
+
+	<ns2:FulfillmentResponse xmlns="http://www.qwest.com/XMLSchema/BIM" xmlns:ns2="http://www.qwest.com/XMLSchema">
+		<ns2:ResponseHeader>
+			<RequestId>76128</RequestId>
+			<SendTimeStamp>2018-01-30T06:39:50.293-05:00</SendTimeStamp>
+			<ServiceOrderNumber>N91101941</ServiceOrderNumber>
+			<ns2:OrderReceivedDate>2018-01-30-05:00</ns2:OrderReceivedDate>
+			<ns2:RequestType>NEW</ns2:RequestType>
+			<ns2:RequestCategory>BROADBAND</ns2:RequestCategory>
+		</ns2:ResponseHeader>
+		<ns2:FulfillmentResponseStatus>SUCCESS</ns2:FulfillmentResponseStatus>
+		<ns2:ExpectedShippingDate>2018-01-30-05:00</ns2:ExpectedShippingDate>
+	</ns2:FulfillmentResponse> 
+
+
+
+=======================================================
+Message number:1
+Subject:Q.aa70714.ORDEH.KGPOF.RESP.ORDEH116
+ReplySubject:
+Elapsed time:1.031 Sec.
+_______________________________________________________
+Data for Field Name DATA is:
+<FulfillmentResponseAcknowledgement xmlns="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <bim:RequestId>75434</bim:RequestId>
+  <bim:SendTimeStamp>2017-12-27T05:30:00.448-06:00</bim:SendTimeStamp>
+  <bim:ServiceOrderNumber>N99100790</bim:ServiceOrderNumber>
+  <RequestType>NEW</RequestType>
+</FulfillmentResponseAcknowledgement>
+_______________________________________________________
+

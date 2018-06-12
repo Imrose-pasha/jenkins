@@ -1,0 +1,4 @@
+com.parasoft.xtest.testcases.web.wizard.project.NewWebProjectPage.DEFAULT_LOCATION_EDITOR=true
+com.parasoft.xtest.testcases.web.wizard.project.NewWebProjectPage.NEW_WEB_PROJECT_FILE_EDITOR=C\:\\REKHA\\automation\\APPLICATIONS\\FFWF\\FFWF
+create_web_project_name=FFWF
+eclipse.preferences.version=1

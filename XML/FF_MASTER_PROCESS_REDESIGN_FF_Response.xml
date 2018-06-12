@@ -1,0 +1,12 @@
+<ns2:FulfillmentResponse xmlns="http://www.qwest.com/XMLSchema/BIM" xmlns:ns2="http://www.qwest.com/XMLSchema">
+	<ns2:ResponseHeader>
+		<RequestId></RequestId>
+		<SendTimeStamp>2017-12-6</SendTimeStamp>
+		<ServiceOrderNumber></ServiceOrderNumber>
+		<ns2:OrderReceivedDate>2017-1-16</ns2:OrderReceivedDate>
+		<ns2:RequestType>NEW</ns2:RequestType>
+		<ns2:RequestCategory>OTT</ns2:RequestCategory>
+	</ns2:ResponseHeader>
+	<ns2:FulfillmentResponseStatus>SUCCESS</ns2:FulfillmentResponseStatus>
+	<ns2:ExpectedShippingDate>2017-1-16</ns2:ExpectedShippingDate>
+</ns2:FulfillmentResponse>
