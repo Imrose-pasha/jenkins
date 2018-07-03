@@ -5,7 +5,7 @@ Feature:
 3.	successfully setting the FFWF resp and shipment response and valiate the response
 #=========================================================================    
 	##########01. Place a ENJ Order and successfully validate the KGP return and Shipment Response##########
-				@Execute
+				@ExecuteNot
 				Scenario: FFWF_BCS_01_FULFILLMENT_ENJ_MASTER_PROCESS_ENSEMBLE_NEW_INSTALL_ORDER
 				Given 		FFWF_BCS_01_FULFILLMENT_ENJ_MASTER_PROCESS_ENSEMBLE_NEW_INSTALL_ORDER
 				
@@ -15,7 +15,7 @@ Feature:
 				Given 		FFWF_BCS_02_FULFILLMENT_ENJ_MASTER_PROCESS_DVAR_NEW_INSTALL_ORDER
 				
 	##########03. FFWF_BCS_03_FULFILLMENT_ENJ_MASTER_PROCESS_REDESIGN##########
-				@ExecuteNot	
+				@Execute	
 				Scenario: FFWF_BCS_03_FULFILLMENT_ENJ_MASTER_PROCESS_REDESIGN
 				Given 		FFWF_BCS_03_FULFILLMENT_ENJ_MASTER_PROCESS_REDESIGN
 				
@@ -30,7 +30,7 @@ Feature:
 				Given 		FFWF_BCS_05_VENDOR_DELIVERY_PROCESS_IOM_FLOW
 
 	##########06. FFWF_BCS_06_VENDOR_INITIATED_RETURNS_ENSEMBLE_FLOW##########
-				@ExecuteNot	
+				@ExecuteNot
 				Scenario: FFWF_BCS_06_VENDOR_INITIATED_RETURNS_ENSEMBLE_FLOW
 				Given 		FFWF_BCS_06_VENDOR_INITIATED_RETURNS_ENSEMBLE_FLOW
 
@@ -60,5 +60,5 @@ Feature:
 				Given		FFWF_BCS_16_PURETV_VENDOR_INITIATED_RETURN_PROCESS_REPLACEMENT_STB_RETURN_KIT_HAS_BEEN_SENT_TO_THE_CUSTOMER_61_DAYS_AGO_TRANSMISSION_IS_NOT_SUCCESSFUL	
 
 	##########Test_Data_SetUp_All_DataSheet##########	
-				@Execute
+				@ExecuteNot
 				Scenario: Test			
