@@ -5,7 +5,7 @@ Feature:
 3.	successfully setting the FFWF resp and shipment response and valiate the response
 #=========================================================================    
 	##########01. Place a ENJ Order and successfully validate the KGP return and Shipment Response##########
-				@ExecuteNot
+				@Execute
 				Scenario: FFWF_BCS_01_FULFILLMENT_ENJ_MASTER_PROCESS_ENSEMBLE_NEW_INSTALL_ORDER
 				Given 		FFWF_BCS_01_FULFILLMENT_ENJ_MASTER_PROCESS_ENSEMBLE_NEW_INSTALL_ORDER
 				
@@ -15,7 +15,7 @@ Feature:
 				Given 		FFWF_BCS_02_FULFILLMENT_ENJ_MASTER_PROCESS_DVAR_NEW_INSTALL_ORDER
 				
 	##########03. FFWF_BCS_03_FULFILLMENT_ENJ_MASTER_PROCESS_REDESIGN##########
-				@Execute	
+				@ExecuteNot
 				Scenario: FFWF_BCS_03_FULFILLMENT_ENJ_MASTER_PROCESS_REDESIGN
 				Given 		FFWF_BCS_03_FULFILLMENT_ENJ_MASTER_PROCESS_REDESIGN
 				

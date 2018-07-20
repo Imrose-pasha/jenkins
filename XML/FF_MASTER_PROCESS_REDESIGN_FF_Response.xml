@@ -1,7 +1,7 @@
 <ns2:FulfillmentResponse xmlns="http://www.qwest.com/XMLSchema/BIM" xmlns:ns2="http://www.qwest.com/XMLSchema">
 	<ns2:ResponseHeader>
 		<RequestId></RequestId>
-		<SendTimeStamp>2017-12-6</SendTimeStamp>
+		<SendTimeStamp>2018-7-12</SendTimeStamp>
 		<ServiceOrderNumber></ServiceOrderNumber>
 		<ns2:OrderReceivedDate>2017-1-16</ns2:OrderReceivedDate>
 		<ns2:RequestType>NEW</ns2:RequestType>
