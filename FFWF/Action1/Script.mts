@@ -1,61 +1,13 @@
 ﻿'###########################################################################################################################
 
-<<<<<<< HEAD
+	'APP_CONFIG_FILE = "C:\automation\APPLICATIONS\FFWF\LIBRARY\FFWF_Config.vbs"	' CHANGE THE <APP_Name>
 	APP_CONFIG_FILE = "C:\jenkins\workspace\FFWF_QA_Automation\FFWF\LIBRARY\FFWF_Config.vbs"	' CHANGE THE <APP_Name>
 	LoadFunctionLibrary (APP_CONFIG_FILE)
-			rc = TESTRUNNER()
-=======
-'										  ##
-'##		CTL KWH-A AUTOMATION FRAMEWORK for QTP/UFT													
-
- @@ hightlight id_;_65894_;_script infofile_;_ZIP::ssf182.xml_;_
-'					  ##
-'##																				
-
-'										  ##		
-'## ----------------------------------------------------------------------------------------------------------------------##
-'##																				
-
-'										  ##
-'##		SCRIPT			:	StartUp()													
-
-'								  ##
-'##																				
-
-'										  ##
-'##		DESCRIPTION		:	The following script is responsible for setting up the environment and 						
-'
-' ##
-'##					   		then calling the appropriate functions to perform the actual work.					
-
-'		  ##
-'##																				
-
-'										  ##
-'##		PARAMETERS		:	None														
-
-'								  ##
-'##																				
-
-'										  ##
-'##		NOTE			:	Change the "<APP_Name>" with the Application/Project name.							
-
-'		  ##
-'##																				
-
-'										  ##
-'###########################################################################################################################
-
-	APP_CONFIG_FILE = "C:\jenkins\workspace\FFWF_QA_Automation\FFWF\LIBRARY\FFWF_Config.vbs"	' CHANGE THE <APP_Name>
-	LoadFunctionLibrary (APP_CONFIG_FILE)
-	
-	
 	
 	rc = TESTRUNNER()
- @@ hightlight id_;_1606351601_;_script infofile_;_ZIP::ssf183.xml_;_
- 
+	 @@ hightlight id_;_1606351601_;_script infofile_;_ZIP::ssf183.xml_;_
+	 Print "RC is:::" &rc
 	
->>>>>>> 6f0c0c5309f46d67885a570fba43c8643d5f027d
 	If rc = 0 Then
 
 		Reporter.ReportEvent micInfo, "TESTRUNNER", "Successfully Run the Test Case !" & Chr(13) & "Test Case :   " & UCASE(TESTCASE_NAME)
@@ -67,12 +19,6 @@
 	End If
 
 '###########################################################################################################################
-<<<<<<< HEAD
-=======
-
-
-
-
 '
 'Set fileSystemObj = createobject("Scripting.FileSystemObject")
 '
@@ -2649,14 +2595,7 @@ Rem Creating a datatable and storing the data from the Excel sheet
 '		 xl.Quit
 '        Set xl=Nothing
 '		'  NextJavaDialog("Security Warning_4").Activate
->>>>>>> 6f0c0c5309f46d67885a570fba43c8643d5f027d
-
-'Window("regexpwndtitle:= Parasoft SOAtest").WinTreeView("regexpwndtitle:= SysTreeView32").HighLight
-		
-'Window("regexpwndtitle:= Parasoft SOAtest","regexpwndclass:=SWT_Window0","text:=Parasoft SOAtest - Parasoft SOAtest.*","Location:=0").WinTreeView("object class:=SysTreeView32","Location:=0").HighLight @@ hightlight id_;_65826_;_script infofile_;_ZIP::ssf191.xml_;_
-'Window("regexpwndtitle:= Parasoft SOAtest","regexpwndclass:=SWT_Window0","text:=Parasoft SOAtest - Parasoft SOAtest.*","Location:=0").WinTreeView("object class:=SysTreeView32","Location:=0").Click
-'Window("regexpwndtitle:=Parasoft SOAtest","regexpwndclass:=SWT_Window0","text:=Parasoft SOAtest - Parasoft SOAtest.*","Location:=0").WinTreeView("nativeclass:=SysTreeView32","Location:=0").Expand "FFWF"
 
 
+'           ' Handling Error
 
- @@ hightlight id_;_612553465_;_script infofile_;_ZIP::ssf189.xml_;_

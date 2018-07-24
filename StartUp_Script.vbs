@@ -41,7 +41,7 @@
 '										  ##
 '###########################################################################################################################
 
-	APP_CONFIG_FILE = "C:\jenkins\workspace\FFWF_QA_Automation\FFWF\LIBRARY\FFWF_Config.vbs"	' CHANGE THE <APP_Name>
+	APP_CONFIG_FILE = "C:\automation\APPLICATIONS\NTM_Automation_BDD\LIBRARY\NTM_Automation_BDD_Config.vbs"	' CHANGE THE <APP_Name>
 	LoadFunctionLibrary (APP_CONFIG_FILE)
 	
 	rc = TESTRUNNER()
