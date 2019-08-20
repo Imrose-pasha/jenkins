@@ -1,22 +1,46 @@
 ﻿'###########################################################################################################################
 
 	'APP_CONFIG_FILE = "C:\automation\APPLICATIONS\FFWF\LIBRARY\FFWF_Config.vbs"	' CHANGE THE <APP_Name>
-	APP_CONFIG_FILE = "C:\jenkins\workspace\FFWF_QA_Automation\FFWF\LIBRARY\FFWF_Config.vbs"	' CHANGE THE <APP_Name>
+	APP_CONFIG_FILE = "C:\jenkins\workspace\CNSMR_TST_FFWF_QAAutomation_Sanity_Practice\FFWF\LIBRARY\FFWF_Config.vbs"	' CHANGE THE <APP_Name>
 	LoadFunctionLibrary (APP_CONFIG_FILE)
 	
 	rc = TESTRUNNER()
-	 @@ hightlight id_;_1606351601_;_script infofile_;_ZIP::ssf183.xml_;_
+	
+ @@ hightlight id_;_1606351601_;_script infofile_;_ZIP::ssf183.xml_;_
 	 Print "RC is:::" &rc
 	
 	If rc = 0 Then
 
 		Reporter.ReportEvent micInfo, "TESTRUNNER", "Successfully Run the Test Case !" & Chr(13) & "Test Case :   " & UCASE(TESTCASE_NAME)
+		
 	
 	Else
 
 		Reporter.ReportEvent micFail, "TESTRUNNER", "Failed to Run the Test Case !" & Chr(13) & "Test Case :   " & UCASE(TESTCASE_NAME)
 	
 	End If
+	
+
+LoadFunctionLibrary "C:\jenkins\workspace\CNSMR_TST_FFWF_QAAutomation_Sanity_Practice\FFWF\JSON_Functions_Lib.vbs"		
+	
+APPLICATION_NAME="FFWF"  
+TEST_ENV="TEST2"
+TESTCASE_NAME="FFWF_BCS_01_FULFILLMENT_ENJ_MASTER_PROCESS_ENSEMBLE_NEW_INSTALL_ORDER"
+STATUS="PASS"
+DURATION="05:00:00"
+SPLUNK_ErrorDetails = "Its working properly"
+
+
+Dim JSON_HEADER, JSON_Array
+JSON_HEADER = "OutputType: Scenario-Detail || MAL: " & APPLICATION_NAME & " || Env: " & TEST_ENV & " || Scenario: " & TESTCASE_NAME & " || Status: " & STATUS & " || Duration: " & DURATION & " || errordetails: " & SPLUNK_ErrorDetails
+JSON_Array = Split(JSON_HEADER, " || ")
+
+
+
+Call Create_JSON(JSON_Array, "JSON_Log.json")		' CREATE JSON LOG FOR SPLUNK
+
+
+
 
 '###########################################################################################################################
 '
